@@ -1,0 +1,263 @@
+/* Video Home */
+
+#video-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#video-container .video-container-buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-container .video-container-buttons button{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 615px;
+    height: 150px;
+    padding: 35px ;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    transition: opacity 0.8s;
+    outline: none;
+}
+
+#video-container .video-container-buttons button:hover{
+    opacity: 0.85;
+
+}
+
+#video-container .video-container-buttons button + button{
+    margin-top: 60px;
+}
+
+#video-container .video-container-buttons button.crud-video{
+    background-color: var(--color-green);
+}
+
+#video-container .video-container-buttons button.create-video{
+    background-color: var(--color-blue);
+}
+
+/* Video Crud */
+
+#video-container .video-container-crud{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    padding-top: 30px;
+
+    width: 100vw;
+    height: 100vh;
+
+    margin-top: 70px;
+    margin-left: 163px;
+}
+
+
+#video-container .video-container-crud .select-input {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: 36px;
+}
+
+#video-container .video-container-crud .select-input select {
+    width: 300px;
+}
+
+#video-container .video-container-crud .grid-videos{    
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 400px) ;
+    row-gap: 64px;
+    background-color: #FFF;
+    
+    padding: 30px 112px 100px  30px  ;
+    overflow: scroll;
+    width: 100%;
+    height: 77%;
+    
+    padding-bottom: 300px;
+    
+}
+
+
+/* Video Create */
+
+
+
+#video-container .video-container-create {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 72px;
+    margin-left: 165px;
+
+    overflow: scroll;
+
+}
+
+#video-container .video-container-create section.form-content{
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-background-hover);
+
+    margin-top: 340px;
+}
+
+#video-container .video-container-create section.form-content form{
+    border-radius: 8px;
+    background-color: var(--color-primary);
+    padding: 60px;
+    border: 1px solid #CACACA;
+
+    width: 840px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+    transition-duration: 1s;
+
+
+}
+
+#video-container .video-container-create section.form-content form h2{
+    margin-bottom: 20px;
+    transition-duration: 1s;
+}
+
+#video-container .video-container-create section.form-content form hr{
+    border: 1px solid #CACACA;
+
+}
+#video-container .video-container-create section.form-content form .row{
+    margin-top: 26px;
+}
+
+
+#video-container .video-container-create section.form-content form .first-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#video-container .video-container-create section.form-content form .subject-container{
+    margin-top: 80px;
+}
+
+#video-container .video-container-create section.form-content form .subject-container h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 18px  0;
+    color: var(--color-text-dark);
+    transition-duration: 1s;
+
+
+}
+
+#video-container .video-container-create section.form-content form .subject-container .subjects .subject{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+
+#video-container .video-container-create section.form-content form .subject-container .subjects .subject input{
+    margin-right: 10px;
+}
+
+#video-container .video-container-create section.form-content form .subject-container .subjects .subject h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: var(--color-text-light);
+}
+
+#video-container .video-container-create section.form-content form .important-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#video-container .video-container-create section.form-content form .important-container button{
+    width: 200px;
+}
+
+#video-container .video-container-create section.form-content form .important-container .important-menssage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#video-container .video-container-create section.form-content form .important-container .important-menssage img{
+    margin-right: 18px;
+}
+
+#video-container .video-container-create section.form-content form .important-container .important-menssage h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+#video-container .video-container-create section.form-content form .important-container button{ transition-duration: 1s; }
+
+#video-container .video-container-create section.form-content .select {
+    width: 48%;
+}
+
+#video-container .video-container-create section.form-content #upload {
+    display: none;
+}
+
+#video-container .video-container-create section.form-content .upload {
+    display: flex;
+    width: 100%;
+
+    padding: 16px;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blue);
+    color: #FFF;
+    cursor: pointer;
+}
+
+#video-container .video-container-create section.form-content .upload img{
+    width: 22px;
+    margin-right: 16px;
+}
+
+#video-container .video-container-create section.form-content .button-send{
+    width: 30%;
+    margin-top: 60px;
+}
+

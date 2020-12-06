@@ -1,0 +1,29 @@
+#students-container{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+
+}
+
+#students-container .student-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column ;
+    margin-top: 72px;
+    margin-left: 80px;
+}
+
+#students-container .student-list .content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column ;    
+    overflow: scroll;
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+

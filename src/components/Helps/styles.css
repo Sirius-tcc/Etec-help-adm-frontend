@@ -1,0 +1,33 @@
+#help-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 90%;
+    height: 66px;
+
+    background: #FFFFFF;
+    border: 1px solid #FEFEFE;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+
+    cursor: pointer;
+    padding: 0 16px;
+    margin-top: 20px;
+    overflow: hidden;
+    
+}
+
+#help-content h1 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}

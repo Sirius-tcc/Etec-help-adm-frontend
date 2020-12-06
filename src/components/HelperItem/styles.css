@@ -1,0 +1,87 @@
+#helper-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-background-hover);
+    border: 1px solid #CACACA;
+    border-radius: 8px;
+    padding: 16px;
+    width: 600px;
+    margin-bottom: 20px;
+}
+
+#helper-item .id {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 25px;
+    width: 80px;
+    height: 100%;
+
+}
+
+
+#helper-item .profile-photo img{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+#helper-item .info-container h2{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 25px;
+
+    margin-bottom: 10px;
+    width: 244px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#helper-item .info-container h3{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 10px;
+
+    width: 244px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#helper-item .info-container h4{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 25px;
+
+    color: var(--color-green);
+}
+
+#helper-item  .delete{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#helper-item  .delete img {
+    width: 26px;
+    height: 26px;
+}
