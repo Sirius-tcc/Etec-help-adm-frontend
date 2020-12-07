@@ -12,7 +12,7 @@ function Select({ name, options, isObject=false , ...rest }){
 
                 {!isObject ? 
                     options.map( (option, index) => (
-                        <option key={ index } value={ option } > { option } </option>
+                        <option  key={ index } value={  index + 1 }  > { option } </option>
                     )) 
                     : 
                     options.map( (option) => (

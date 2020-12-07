@@ -73,6 +73,28 @@
     opacity: 0.7;
 }
 
+#video-container .content .video-info .title-edit textarea {
+    outline: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    resize: none;
+    height: 50px;
+    background-color: #CACACA;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border: 5px solid #CACACA;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+#video-container .content .video-info .title-edit textarea::-webkit-scrollbar{
+    display: none;
+}
+
+
 #video-container .content .video-info .views{
     display: flex;
     align-items: center;

@@ -17,7 +17,7 @@
 
 #text-area .text-area textarea{
     font-family: Poppins;
-    color: var(--color-text-light);
+    color: var(--color-text-dark);
     
     outline: none;
     border-radius: 8px;

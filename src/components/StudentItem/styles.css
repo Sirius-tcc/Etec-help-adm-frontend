@@ -25,12 +25,19 @@
 
 }
 
+#student-item .profile-photo{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: var(--color-gray);
+}
 
 #student-item .profile-photo img{
     width: 125px;
     height: 125px;
     border-radius: 50%;
     object-fit: cover;
+    background-color: var(--color-gray);
 
 }
 

@@ -117,9 +117,10 @@
 #video-container .video-container-create section.form-content{
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: var(--color-background-hover);
 
-    margin-top: 340px;
+    margin-top: 500px;
 }
 
 #video-container .video-container-create section.form-content form{

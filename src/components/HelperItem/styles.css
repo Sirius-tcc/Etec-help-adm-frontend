@@ -25,6 +25,19 @@
 
 }
 
+#helper-item .profile- {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#helper-item .profile-photo{
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    background-color: var(--color-gray);
+}
 
 #helper-item .profile-photo img{
     width: 125px;

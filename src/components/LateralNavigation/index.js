@@ -29,7 +29,11 @@ export default function LateralNavigation( { select }) {
               onClick={() =>{
                 push('/Video')
             }}/>
-            <img src={Logout} className="logout" alt="logout"/>
+            <img src={Logout} className="logout" alt="logout"
+             onClick={() =>{
+                localStorage.clear()
+                push('/')
+            }}/>
           </div>
         </div>
     )
